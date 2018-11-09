@@ -1,8 +1,9 @@
 # tellmethe
 
-![dashenv](https://img.shields.io/badge/npm-v1.1.1-blue.svg)
+![dashenv](https://img.shields.io/badge/npm-v1.2.0-blue.svg)
 
-
+##### A simple and easy to use javascript library to get all the necessary time related information.
+#
 ```
 npm i tellmethe
 ```
