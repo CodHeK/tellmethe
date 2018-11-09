@@ -15,7 +15,7 @@ module.exports.day = () => {
   return date.getDate();
 }
 
-module.exports.complete = () => {
+module.exports.everything = () => {
   var date = Date(Date.now());
   return date;
 }
@@ -44,9 +44,12 @@ module.exports.time_12hr = () => {
   var rest = date.toString().slice(18, 25);
   var t_12hr = parseInt(t_24hr);
   var flag = 0;
-  if( t_12hr > 12) {
+  if( t_12hr > 12 && t_12hr != 0) {
     t_12hr -= 12;
     flag = 1;
+  }
+  else if(t_12hr == 0) {
+    t_12hr = 12;
   }
   t_12hr = t_12hr.toString();
   time = t_12hr + rest;
