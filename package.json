@@ -1,0 +1,12 @@
+{
+  "name": "tellmethe",
+  "version": "1.1.0",
+  "description": "Get all time related details",
+  "main": "index.js",
+  "keywords" : ["time", "moment", "npm", "package", "now", "date"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
